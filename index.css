@@ -1,4 +1,15 @@
 body {
-  background-color: #333;
+  background-color: #034bab;
   color: white;
+}
+h1 {
+  text-align: center;
+  border: #fe7114 solid 5px;
+  margin: 30px;
+  background-color: #8cb5de;
+  padding: 10px;
+  color: #333;
+}
+a {
+  color: salmon;
 }
