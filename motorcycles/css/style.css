@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: rgb(228, 210, 210);
+}
+header {
+  border: #fe7114 solid 2px;
+  background-color: #4d4b05;
+  padding: 20px;
+  color: rgb(250, 227, 227);
+}
+h1 {
+  text-align: center;
+  
+}
+a {
+  color: rgb(245, 87, 24);
+}
+img {
+max-width: 50%;
+margin: 10px auto;
+}
