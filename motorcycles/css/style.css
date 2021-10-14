@@ -41,16 +41,21 @@ img {
   display: flex;
   background-color: #aadb24;
   border: black solid 2px;
+  padding: 0 20px;
+}
+.container > * {
+  flex-basis: 100%;
 }
 .box {
   color: rgb(58, 236, 52);
-    font-size: 30px;
-    margin: 30px 40px;
+    font-size: 20px;
+    margin: 30px 10px;
     background-color: rgb(69, 151, 165);
-    padding: 70px;  
+    padding: 50px 10px;  
    
     border: solid red 2px;
 }
+/*
 .bikebox {
   display:flex;
   text-align: left;
@@ -58,8 +63,8 @@ img {
 .biketext {
 font-size: 15px;
 width: 50%;    /*------possibly take out it equals the boxes------*/
-padding: 2px;
+/*padding: 2px;
 margin: 5px;
 
     
-}
+}*/
