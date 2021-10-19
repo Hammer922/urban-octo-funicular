@@ -12,6 +12,20 @@ header {
   font-size: 30px;
   text-align: center;
 }
+nav {
+  border-bottom: black solid 2px;
+}
+.crumbs {
+  list-style-type: none;
+  padding-left: 0;
+  
+  
+}
+.crumb {
+  display:inline-block;
+  margin: 0 20px;
+  
+}
 .border {
   border-style: solid;
   border-color: #333;
