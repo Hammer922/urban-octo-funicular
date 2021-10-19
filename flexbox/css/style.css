@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(204, 199, 187);
+}
+h1 {
+    background-color:azure;
+}
+.container {
+    height: 700px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    /*align-content: center;*/
+    
+
+}
+.holder {
+    width: 200px;
+    margin: 10px;
+    border: red solid 2px;
+    /*padding: 5px;*/
+    background-color:cadetblue;
+    text-align: center;
+}
+.box-1 {
+    min-height: 100px;
+    flex-shrink: 0;
+    
+    
+}
+.box-2 {
+    min-height: 200px;
+    flex-grow: 2;
+    align-self:flex-end; 
+}
+.box-3 {
+    min-height: 300px;
+    flex-grow: 1; 
+    align-self: flex-start; 
+}

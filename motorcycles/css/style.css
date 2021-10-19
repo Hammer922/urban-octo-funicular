@@ -56,6 +56,7 @@ img {
 }
 .container {
   display: flex;
+  justify-content: space-around;
   background-color: #aadb24;
   border: black solid 2px;
   padding: 0 20px;
@@ -69,12 +70,12 @@ img {
     margin: 30px 10px;
     background-color: rgb(69, 151, 165);
     padding: 50px 10px;  
-   image: 140px align: center;
+    range: 140px; box-align: center;
     border: solid red 2px;
 }
 .bikebox {
   display:flex;
-  background-color: rgb(69, 151, 165);
+  /*background-color: rgb(69, 151, 165);
   border: black solid 2px;
   padding: 5px 10px;
   text-align: center;
@@ -89,7 +90,6 @@ margin: 0 20px;
 border: solid red 2px;
 width: 50%;    /*------possibly take out it equals the boxes------*/
 /*padding: 2px;
-margin: 5px;
+margin: 5px;*/
+}
 
-    
-*/
