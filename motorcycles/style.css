@@ -1,6 +1,6 @@
 body {
     margin: 0;
-background-color:rgb(186, 219, 228);
+background-color:rgb(180, 182, 172);
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header {
@@ -70,26 +70,25 @@ img {
     margin: 30px 10px;
     background-color: rgb(69, 151, 165);
     padding: 50px 10px;  
-    range: 140px; box-align: center;
-    border: solid red 2px;
+        border: solid red 2px;
 }
 .bikebox {
   display:flex;
-  /*background-color: rgb(69, 151, 165);
-  border: black solid 2px;
-  padding: 5px 10px;
-  text-align: center;
-  /*text-align: left;*/
-}
-.biketext > * {
-  flex-basis: 100%;
+  flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    
+    background-color:bisque;
+    border: solid red 2px;
+    padding: 10px 0;
+ 
 }
 .biketext {
 font-size: 15px;
-margin: 0 20px;
-border: solid red 2px;
-width: 50%;    /*------possibly take out it equals the boxes------*/
-/*padding: 2px;
-margin: 5px;*/
+border: #333 solid 1px;
+padding: 2px 20px;
+background-color:rgb(69, 151, 165); 
+
+
 }
 
