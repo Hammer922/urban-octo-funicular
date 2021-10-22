@@ -1,0 +1,22 @@
+body {
+    background-color:burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornsilk;
+    margin: 0;
+    
+}
+
+.box {
+    background-color: rgb(80, 76, 76);
+    padding: 10px 5px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+    
+}
+
+.container {
+    flex-basis: 100%;
+    margin: 5px 10px;
+}
