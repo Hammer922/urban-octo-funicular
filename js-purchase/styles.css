@@ -11,9 +11,10 @@ img {
 p {
     font-weight: 600;
     margin-bottom: 5px;
+    max-width: 200px;
 }
 button {
-    background: white;
+    background: rgba(212, 168, 168, 0.404);
     color: black;
     margin-top: 10px;
     border: 1px solid black;
