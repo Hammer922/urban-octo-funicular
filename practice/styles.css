@@ -6,21 +6,34 @@ body {
 }
 
 .container {
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /*display:flex;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
     border: red solid 1px;
+    /*align-content: center;*/
+    padding: 20px;
+    
 }
 
+.outer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    
+}
 .box {
+    margin: 0 20px;
     
 }
 
 button {
     background-color: darkolivegreen;
+    width:100px;
     color: whitesmoke;
     padding: 2rem 1rem;
     margin: 0 2px;
-    border: none;
+    border-spacing: 2px;
     border-radius: 2rem;
+    cursor: pointer;
 }

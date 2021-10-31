@@ -6,10 +6,10 @@ let count = 0
 function button1() {
     count += 1
     onPress1.textContent = count
-    //console.log(count)
+    console.log(count)
 }
 
 function button2() {
     count += 1
-    onPress2.textContent = names + " " + count
+    onPress2.textContent = names + count
 }
